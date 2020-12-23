@@ -45,7 +45,7 @@ console.log(cars)
             <span class="badge badge-danger">not available</span>
             }</p>
 
-            <Link to="/" className="btn btn-primary">
+            <Link to="/" className="my-1 btn btn-primary">
                 View car
             </Link>
           </div>
