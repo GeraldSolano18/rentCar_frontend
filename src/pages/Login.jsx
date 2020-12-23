@@ -6,7 +6,7 @@ import jwt from "jsonwebtoken";
 import setAuthorizationToken from "../utils/setAuthorizationToken"
 
 export const Login = () => {
-let history = useHistory();
+  let history = useHistory();
   const [data, setData] = useState({});
   const [error, setError]= useState(null);
 
@@ -50,9 +50,8 @@ let history = useHistory();
           <div className="alert alert-danger">{error}</div>:
           null
         }
-        
 
-        <h1 className="large text-primary">Sign In</h1>
+        <h1 className="large text-primary">LOGIN</h1>
         <p className="lead">
           <i className="fas fa-user"></i>
           Sign into your account
