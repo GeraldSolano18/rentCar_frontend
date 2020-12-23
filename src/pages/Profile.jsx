@@ -8,24 +8,13 @@ export const Profile = ()=>{
    <div class="profile-top bg-primary p-2">
           <img
             class="round-img my-1"
-            src="https://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50?s=200"
+            src="https://www.011global.com/Account/Slices/user-anonymous.png"
             alt=""
           />
 
-          <h1 class="large">John Doe</h1>
-          <p class="lead">Developer at Microsoft</p>
-          <p>Seattle, WA</p>
-          <div class="icons my-1">
-            <a href="#">
-              <i class="fab fa-twitter fa-2x"></i>
-            </a>
-            <a href="#">
-              <i class="fab fa-facebook fa-2x"></i>
-            </a>
-            <a href="#">
-              <i class="fab fa-instagram fa-2x"></i>
-            </a>
-          </div>
+          <h1 class="large">Gerald Solano</h1>
+          <p class="lead">Admin</p>
+  
         </div>
  
          
@@ -37,16 +26,15 @@ export const Profile = ()=>{
             <div>
               <h4><a href="#">Repo One</a></h4>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Facilis, tenetur.
+               .
               </p>
             </div>
 
             <div>
               <ul>
-                <li class="badge badge-primary">Stars: 44</li>
-                <li class="badge badge-dark">Watchers: 20</li>
-                <li class="badge badge-light">Forks: 25</li>
+                <li class="badge badge-success">Date:</li>
+                <li class="badge badge-danger">Cost:</li>
+                <li class="badge badge-dark">Duration</li>
               </ul>
             </div>
           </div>
